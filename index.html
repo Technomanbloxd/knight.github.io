@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Knight Packs Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { background: #20222a; color: #eee; font-family: Arial, sans-serif; margin: 0; }
+    header { background: #242836; padding: 24px 0; text-align: center; }
+    h1 { margin: 0; font-size: 2.4em; letter-spacing: 1px; }
+    .packs { max-width: 900px; margin: 40px auto; display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; }
+    .pack { background: #2d3142; border-radius: 12px; box-shadow: 0 2px 12px #0008; width: 280px; padding: 18px; text-align: center; }
+    .pack img { max-width: 100%; border-radius: 6px; margin-bottom: 18px; }
+    .pack-title { font-size: 1.25em; margin-bottom: 10px; }
+    .btn { text-decoration: none; background: #3072ea; color: #fff; border-radius: 6px; padding: 11px 26px; display: inline-block; margin-top: 15px; transition: background .14s; }
+    .btn:hover { background: #1d54b9; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knight’s Minecraft Packs</h1>
+    <p>Choose and download your required resource packs below</p>
+  </header>
+  <section class="packs">
+    <div class="pack">
+      <img src="pack1-image.png" alt="Pack 1 Preview">
+      <div class="pack-title">Knight’s Adventure Pack</div>
+      <a class="btn" href="packs/knight_adventure_pack.zip" download>Download</a>
+    </div>
+    <div class="pack">
+      <img src="pack2-image.png" alt="Pack 2 Preview">
+      <div class="pack-title">Dark Fantasy Pack</div>
+      <a class="btn" href="packs/dark_fantasy_pack.zip" download>Download</a>
+    </div>
+    <!-- Add more packs as needed, following this structure -->
+  </section>
+</body>
+</html>
